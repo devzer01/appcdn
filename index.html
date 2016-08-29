@@ -1,0 +1,58 @@
+<style>
+p {color:white;font-family:sans-serif;font-size:18px;}
+</style>
+<P> This is a demo page showing how AppLixir Video Ad works<P> 
+
+<!doctype html>
+<html>
+	<head>
+		<title>Simple Racer</title>
+		<link href="racer.css" rel="stylesheet">
+                <script type="text/javascript" src="//static.appcdn.net/applixir_richmedia.js"></script>
+		<style type="text/css">
+			body {
+				background: #000;
+			}
+			canvas {
+				display: block;
+				border: solid 5px #444;
+				margin: 0 auto;
+			}
+			#info {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+                <div style="position: absolute;top: 10px;color: #FFF;left: 90%;">POINTS: <span id="pts">0</span></div>
+		<canvas id="canvas" width="1000" height="700"></canvas>
+		<div id="info">
+			Player: x <span id="px">0</span> y <span id="py"></span>
+		</div>
+		<script src="jquery.js"></script>
+		<script src="helpers.js"></script>
+		<script src="collision.js"></script>
+		<script src="car.js"></script>
+		<script src="racer.js"></script>
+<div id="applixir_vanishing_div" style="position:absolute; top: 1%; left: 1%; margin: -250px -316px;">
+<iframe width="8px" height="8px" name="applixir_iframe" id="applixir_vanishing_frame" src="/applixir_richmediaframe_9aaf8548855e452324fa950bae7ea386.html" frameborder=0 ALLOWTRANSPARENCY="true"></iframe>
+</div>
+
+<script type="text/javascript">
+       setTimeout( function(){
+             //invokeApplixirVideoUnit();
+              invokeApplixirVideoUnitExtended(false, 'top', function (watched) {
+                    if (watched) {
+                         $("#pts").text('10');
+                    } else {
+                         console.log('ad wasn\'t fully watched.');
+                    }
+              });
+             }, 3000 );
+
+       function applixirAdBlockFound() {
+		alert('ad block found');
+       }
+</script>
+	</body>
+</html>

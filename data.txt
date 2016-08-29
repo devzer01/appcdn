@@ -1,0 +1,14 @@
+title ==== "The Matrix" / movieID: 0133093 ====
+synopsis A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+media url http://ia.media-imdb.com/images/M/MV5BMTkxNDYxOTA4M15BMl5BanBnXkFtZTgwNTk0NzQxMTE@._V1._SX94_SY140_.jpg
+release dates by country [u'USA::31 March 1999', u'Australia::8 April 1999', u'New Zealand::8 April 1999', u'Singapore::22 April 1999', u'Malaysia::6 May 1999', u'Denmark::7 May 1999', u'Italy::7 May 1999', u'South Korea::15 May 1999', u'Brazil::21 May 1999', u'Colombia::21 May 1999', u'Mexico::21 May 1999', u'Thailand::21 May 1999', u'Philippines::26 May 1999', u'Taiwan::4 June 1999', u'Finland::5 June 1999 (Night Visions Film Festival)', u'Kuwait::9 June 1999', u'Portugal::9 June 1999 (Oporto)\n (premiere)', u'Argentina::10 June 1999', u'UK::11 June 1999', u'Ireland::11 June 1999', u'Germany::17 June 1999', u'Netherlands::17 June 1999', u'Switzerland::18 June 1999 (German speaking region)', u'Switzerland::23 June 1999 (French speaking region)', u'Spain::23 June 1999', u'France::23 June 1999', u'Israel::24 June 1999', u'Iceland::25 June 1999', u'Portugal::25 June 1999', u'Indonesia::3 July 1999 (Jakarta)', u'Belgium::7 July 1999', u'Norway::7 July 1999 (Filmquart Film Festival)', u'Finland::9 July 1999', u'Norway::9 July 1999', u'Sweden::14 July 1999', u'Estonia::16 July 1999', u'Uruguay::30 July 1999', u'Czech Republic::5 August 1999', u'Hungary::5 August 1999', u'Slovakia::5 August 1999', u'Poland::13 August 1999', u'Slovenia::19 August 1999', u'Greece::20 August 1999', u'Croatia::26 August 1999', u'Bulgaria::3 September 1999', u'Turkey::3 September 1999', u'Japan::11 September 1999', u'Russia::14 October 1999', u'Italy::5 May 2000 (re-release)', u'Germany::29 May 2003 (re-release)', u'Argentina::2 October 2003 (re-release)', u'Canada::11 February 2010 (Digital Film Festival)', u'Spain::5 May 2012 (Barcelona) (re-release)']
+
+Genres: Action Sci-Fi
+Director(s): Andy Wachowski Lana Wachowski 
+Cast: 
+      Keanu Reeves (Neo)
+      Laurence Fishburne (Morpheus)
+      Carrie-Anne Moss (Trinity)
+      Hugo Weaving (Agent Smith)
+      Gloria Foster (Oracle)
+Rating: 8.7

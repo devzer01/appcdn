@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>IMA HTML5 Simple Demo</title>
+    <script type="text/javascript" src="applixir_richmedia.js"></script>
+  </head>
+
+  <body>
+
+  <div id="applixir_vanishing_div" style="position:absolute; top: 1%; left: 1%; margin: -250px -316px;">
+    <iframe width="8px" height="8px" name="applixir_iframe" id="applixir_vanishing_frame" src="iframe.html" frameborder=0 ALLOWTRANSPARENCY="true"></iframe>
+  </div>
+
+
+  <script type="application/javascript">
+    setTimeout( function(){
+      //invokeApplixirVideoUnit();
+      invokeApplixirVideoUnitExtended(false, 'top', function (watched) {
+        if (watched) {
+          $("#pts").text('10');
+        } else {
+          console.log('ad wasn\'t fully watched.');
+        }
+      });
+    }, 3000 );
+  </script>
+
+  </body>
+</html>
